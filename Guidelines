@@ -1,0 +1,41 @@
+Database:
+
+User
+  - U_ID
+  - Name
+  - Password
+  - Email ID
+  - Points Earned
+  - Total Attempted Questions
+  
+Role
+  Same as other
+  
+Right
+  Same as other
+  
+Questions
+  - Q_ID
+  - Question (description)
+  - Options (multivalued)[*]
+  - Correct Answer
+  - Hint/Explaination
+  - Points
+  - Topic_ID
+
+Category
+  - T_ID
+  - Topic
+  - Description
+
+Common Gene Para
+  Same as other
+  
+  
+[*] CREATE TABLE "token" (
+  "id"       integer PRIMARY KEY,
+  "text"     text,
+  "category" text[]
+  );
+INSERT INTO "token" ("id", "text", "category")
+VALUES (1, 'some text', ARRAY['cate1', 'cate2']);
