@@ -1,0 +1,65 @@
+Database:-
+
+user_mst:
+  - uid
+  - userid
+  - password
+  - emailid
+  - firstname
+  - lastname
+  - points
+  - attemptedqstns
+  
+role_mst:
+  - roleid
+  - rolename
+  - desc
+  
+right_mst:
+  - rightid
+  - rightname
+  - desc
+  - screenname
+
+user_role_mapping:
+  - mapid
+  - uid
+  - roleid
+
+role_right_mapping:
+  - mapid
+  - roleid
+  - rightid
+  
+qstn_mst:
+  - qid
+  - qstn (description)
+  - options (multivalued)[*]
+  - answer
+  - hint
+  - points
+
+topic_mst:
+  - tid
+  - topicname
+  - desc
+
+qstn_topic_mapping:
+  - mapid
+  - qid
+  - tid
+
+common_gene_para:
+  - comgenid
+  - name
+  - desc
+  - key
+  
+  
+[*] CREATE TABLE "token" (
+  "id"       integer PRIMARY KEY,
+  "text"     text,
+  "category" text[]
+  );
+INSERT INTO "token" ("id", "text", "category")
+VALUES (1, 'some text', ARRAY['cate1', 'cate2']);
