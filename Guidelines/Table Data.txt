@@ -2,13 +2,13 @@ Database:-
 
 user_mst:
   - uid
-  - userid
-  - password
   - emailid
+  - password
   - firstname
   - lastname
   - points
   - attemptedqstns
+  - roleid
   
 role_mst:
   - roleid
@@ -21,11 +21,6 @@ right_mst:
   - desc
   - screenname
 
-user_role_mapping:
-  - mapid
-  - uid
-  - roleid
-
 role_right_mapping:
   - mapid
   - roleid
@@ -36,25 +31,12 @@ qstn_mst:
   - qstn (description)
   - options (multivalued)[*]
   - answer
-  - hint
-  - points
+  - topicid
 
 topic_mst:
-  - tid
+  - topicid
   - topicname
-  - desc
-
-qstn_topic_mapping:
-  - mapid
-  - qid
-  - tid
-
-common_gene_para:
-  - comgenid
-  - name
-  - desc
-  - key
-  
+  - desc  
   
 [*] CREATE TABLE "token" (
   "id"       integer PRIMARY KEY,

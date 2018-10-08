@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    position:fixed;
+    background-color:transparent;
+    width:100%;
+    top:0px;
+    align: center;
+}
+
+.navbar h1{
+    text-align: center;
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 50%;
+}
+#shareer{
+    margin-top:70px;    
+}
+
+.btn{
+    margin-top: 10px;
+}
+body{
+    /* background:linear-gradient(#fc133a,#ff6427); */
+    background: radial-gradient(#fcc613,#ff6427);
+}
