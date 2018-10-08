@@ -27,5 +27,7 @@
 }
 body{
     /* background:linear-gradient(#fc133a,#ff6427); */
-    background: radial-gradient(#fcc613,#ff6427);
+    /* background: radial-gradient(#fcc613,#ff6427); */
+    background-image: url('../wp2566041.jpg');
+    background-size: 100%;
 }
