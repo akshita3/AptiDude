@@ -11,6 +11,19 @@
 </head>
 <body>
 	
+<%
+	System.out.println("Inside DashBoard Page "+session.getAttribute("userid"));
+ 	if(session.getAttribute("userid")==null){
+		response.sendRedirect("home.jsp");
+ 	}
+          	
+    UserDTO userDTO = (UserDTO)session.getAttribute("userdata");
+    if(userDTO==null){
+  		response.sendRedirect("home.jsp");
+    }
+    boolean isActive = true;
+%>
+          
 	<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -35,18 +48,7 @@
       </div>
     </nav>
     
-    <%
- System.out.println("Inside DashBoard Page "+session.getAttribute("userid"));
- if(session.getAttribute("userid")==null){
-	 response.sendRedirect("home.jsp");
- }
-          	
-          UserDTO userDTO = (UserDTO)session.getAttribute("userdata");
-    		if(userDTO==null){
-    			response.sendRedirect("home.jsp");
-    		}
-          boolean isActive = true;
-          %>
+   
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
@@ -71,7 +73,7 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           
          <% if(userDTO!=null){ %>
-          <h1 class="page-header">Welcome <%=session.getAttribute("userid") %>, You are <%=userDTO.getRoleName() %></h1>
+          <h1 class="page-header">Welcome <%=session.getAttribute("firstName") %>, You are <%=userDTO.getRoleName() %></h1>
 		<% } %>
 		</div>
       </div>

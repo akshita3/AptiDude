@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="utf-8" autoFlush="true" buffer="18kb"
-    isErrorPage="false" trimDirectiveWhitespaces="true"
+    isErrorPage="false" errorPage="registerError.jsp" trimDirectiveWhitespaces="true"
 %>
 <!DOCTYPE html>
 <html>
@@ -12,10 +12,6 @@
 <body>
 	<h1>Register</h1>
     	<form action="http://localhost:8080/AptiDude/register" method="POST">
-        	<div class="form-group">
-            	<label for="exampleInputEmail1">User ID: </label>
-            	<input type="text" class="form-control" id="exampleInputEmail1" name="userid" placeholder="Enter User ID">
-        	</div>
         	<div class="form-group">
             	<label for="exampleInputEmail1">Email address: </label>
             	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailid" placeholder="Enter email">

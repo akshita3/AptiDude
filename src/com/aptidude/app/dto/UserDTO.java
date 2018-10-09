@@ -5,15 +5,18 @@ import java.util.ArrayList;
 import com.aptidude.app.dto.RightDTO;
 
 public class UserDTO {
-	private String userid;
+	private String emailid;
+	private String password;
+	private String firstName;
+	private String lastName;
 	private String roleName;
 	private ArrayList<RightDTO> rights;
 	
-	public String getUserid() {
-		return userid;
+	public String getEmailid() {
+		return emailid;
 	}
-	public void setUserid(String userid) {
-		this.userid = userid;
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
 	}
 	public String getRoleName() {
 		return roleName;
@@ -27,4 +30,23 @@ public class UserDTO {
 	public void setRights(ArrayList<RightDTO> rights) {
 		this.rights = rights;
 	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
 }

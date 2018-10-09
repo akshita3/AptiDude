@@ -28,21 +28,22 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		logger.debug("Inside LoginServlet doPost() method.");
 		
-		String userid = request.getParameter("userid");
+		String emailid = request.getParameter("emailid");
 		String password = request.getParameter("password");
 		logger.debug("LoginServlet doPost() received credentials.");
 		
 		UserDAO userDAO = new UserDAO();
 		
 		try {
-			UserDTO userDTO = userDAO.doLogin(userid,password);
+			UserDTO userDTO = userDAO.doLogin(emailid,password);
 			logger.debug("LoginServlet received db-loaded UserDTO Object: " + userDTO);
 			if(userDTO != null) {
 				HttpSession session = request.getSession(true);
 				logger.debug("HttpSession created.");
 				logger.debug("Session ID: " + session.getId());
 				logger.debug("Session Created at: " + session.getCreationTime());
-				session.setAttribute("userid", userDTO.getUserid());
+				session.setAttribute("firstName", userDTO.getFirstName());
+				session.setAttribute("userid", userDTO.getEmailid());
 				session.setAttribute("userdata", userDTO);
 				logger.debug("Redirecting to Dashboard.jsp...");
 				response.sendRedirect("Dashboard.jsp");
@@ -50,7 +51,7 @@ public class LoginServlet extends HttpServlet {
 			}
 			else {
 				logger.debug("Error in Login.");
-				response.sendRedirect("LoginError.jsp");
+				response.sendRedirect("loginError.jsp");
 			}
 		}
 		catch (ClassNotFoundException e) {

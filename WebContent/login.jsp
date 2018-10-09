@@ -13,12 +13,12 @@
 		
 		<form action="http://localhost:8080/AptiDude/login" method="POST">
         	<div class="form-group">
-          		<label for="exampleInputUserId">User ID</label>
-          		<input type="text" class="form-control" id="exampleInputUserId" placeholder="Enter User ID" name="userid">
+          		<label for="exampleInputEmailId">Email ID</label>
+          		<input type="text" class="form-control" id="exampleInputEmailId" placeholder="Enter Email ID" name="emailid">
         	</div>
         	<div class="form-group">
           		<label for="exampleInputPassword1">Password</label>
-          		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+          		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" name="password">
         	</div>
         	<button type="submit" class="btn btn-success">Login</button>
         	<button type="reset" class="btn btn-primary">Reset</button>

@@ -25,7 +25,7 @@ Logger logger = Logger.getLogger(CommonDAO.class);
 		return conn;
 	}
 	
-	public static int fetch_UID(String userid) throws ClassNotFoundException, SQLException {
+	public static int fetch_UID(String emailid) throws ClassNotFoundException, SQLException {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
@@ -34,7 +34,7 @@ Logger logger = Logger.getLogger(CommonDAO.class);
 			conn = getConnection();
 			
 			pstmt = conn.prepareStatement(QueryConstants.UID_SQL);
-			pstmt.setString(1, userid);
+			pstmt.setString(1, emailid);
 			rs = pstmt.executeQuery();
 			int uid;
 			if(rs.next()) {

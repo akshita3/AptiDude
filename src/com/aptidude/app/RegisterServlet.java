@@ -29,11 +29,9 @@ public class RegisterServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		logger.debug("Inside RegisterServlet doPost() method.");
-		PrintWriter out = response.getWriter();
 		String rolename = "User";
-		String userid = request.getParameter("userid");
 		String emailid = request.getParameter("emailid");
-		String pwd = request.getParameter("password");
+		String password = request.getParameter("password");
 		String firstName = request.getParameter("firstname");
 		String lastName = request.getParameter("lastname");
 		logger.debug("RegisterServlet doPost() received credentials.");
@@ -41,7 +39,7 @@ public class RegisterServlet extends HttpServlet {
 		UserDAO userDAO = new UserDAO();
 		
 		try {
-			String message = userDAO.doRegister(rolename,userid, pwd, emailid, firstName, lastName);
+			String message = userDAO.doRegister(rolename,emailid, password, firstName, lastName);
 			if(message == "SUCCESS") {
 				response.sendRedirect("registerSuccess.jsp");
 			}
@@ -54,9 +52,6 @@ public class RegisterServlet extends HttpServlet {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
-			out.close();
 		}
 	}
 
