@@ -20,7 +20,8 @@
     }
     boolean isActive = true;
 %>
-
+	
+	<h1>Update Profile</h1><br/>
 	<form action="http://localhost:8080/AptiDude/updateProfile" method="POST">
        	<div class="form-group">
            	<label for="exampleInputEmail1">Email address: </label>
@@ -43,9 +44,10 @@
            		<label for="lastname">Last Name: </label>
                 <input name="lastname" type="text" class="form-control" placeholder="<%= userDTO.getLastName()%>">
            	</div>
-       	</div>      
+       	</div><br/>
        	<button type="reset" class="btn">Reset</button>
-        <button type="submit" class="btn btn-primary">Update</button>
+        <button type="submit" class="btn btn-primary">Update</button><br/><br/>
+        <a href="http://localhost:8080/AptiDude/Dashboard.jsp" class="btn btn-success btn-sm active" role="button" aria-pressed="true">Return to Dashboard</a>
    	</form>
 	
 

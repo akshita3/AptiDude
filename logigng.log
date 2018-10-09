@@ -336,3 +336,48 @@
 2018-10-09 19:14:33 DEBUG updateProfileServlet:32 - Inside updateProfileServlet doPost() method.
 2018-10-09 19:14:52 DEBUG updateProfileServlet:32 - Inside updateProfileServlet doPost() method.
 2018-10-09 19:15:23 DEBUG updateProfileServlet:32 - Inside updateProfileServlet doPost() method.
+2018-10-09 19:24:38 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-09 19:24:38 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-09 19:24:38 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-09 19:24:39 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-09 19:24:39 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-09 19:24:39 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-09 19:24:39 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-09 19:24:39 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-09 19:24:39 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-09 19:24:39 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-09 19:24:39 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-09 19:24:39 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-09 19:24:39 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-09 19:24:39 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-09 19:24:39 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-09 19:24:39 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-09 19:24:39 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-09 19:24:39 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-09 19:24:39 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-09 19:24:39 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-09 19:24:39 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-09 19:24:39 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-09 19:24:39 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-09 19:24:39 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@167e72e5
+2018-10-09 19:24:39 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-09 19:24:39 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@167e72e5
+2018-10-09 19:24:39 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-09 19:24:39 DEBUG LoginServlet:43 - Session ID: E849AC9DC2D6D92A19A21C4962F4504F
+2018-10-09 19:24:39 DEBUG LoginServlet:44 - Session Created at: 1539093271809
+2018-10-09 19:24:39 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-09 19:25:15 DEBUG updateProfileServlet:32 - Inside updateProfileServlet doPost() method.
+2018-10-09 19:25:15 DEBUG UserDAO:122 - Inside UserDAO doUpdate() method.
+2018-10-09 19:25:15 DEBUG UserDAO:128 - Connection created for UPDATE inside UserDAO..
+2018-10-09 19:25:15 DEBUG UserDAO:136 - Record Updated. Profile Update Successful.
+2018-10-09 19:25:15 DEBUG UserDAO:155 - Resources closed for UPDATE in UserDAO.
+2018-10-09 19:25:46 DEBUG updateProfileServlet:32 - Inside updateProfileServlet doPost() method.
+2018-10-09 19:25:46 DEBUG UserDAO:122 - Inside UserDAO doUpdate() method.
+2018-10-09 19:25:46 DEBUG UserDAO:128 - Connection created for UPDATE inside UserDAO..
+2018-10-09 19:25:47 DEBUG UserDAO:136 - Record Updated. Profile Update Successful.
+2018-10-09 19:25:47 DEBUG UserDAO:155 - Resources closed for UPDATE in UserDAO.
+2018-10-09 19:26:17 DEBUG updateProfileServlet:32 - Inside updateProfileServlet doPost() method.
+2018-10-09 19:26:17 DEBUG UserDAO:122 - Inside UserDAO doUpdate() method.
+2018-10-09 19:26:17 DEBUG UserDAO:128 - Connection created for UPDATE inside UserDAO..
+2018-10-09 19:26:17 DEBUG UserDAO:136 - Record Updated. Profile Update Successful.
+2018-10-09 19:26:17 DEBUG UserDAO:155 - Resources closed for UPDATE in UserDAO.
