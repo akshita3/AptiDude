@@ -1,0 +1,487 @@
+
+Questions
+
+INDIRECT PROPORTIONS
+1.	Water is continuously supplied from a reservoir to a locality at the steady rate of 10000 litres per hour. When delivery exceeds demand the excess water is stored in a tank. If the demand for 8 consecutive three-hour periods is 10000, 10000, 45000, 25000, 40000, 15000, 60000, and 35000 litres respectively, what will be the minimum capacity required of the water tank ( in thousand litres) to mee the demand and avoid any wastage?
+	10
+	*40
+	30
+	50
+
+2.	A pipe can fill a tank in 3 hrs. There are two outlet pipes from the tank which can empty it in 7 and 10 hrs. If all the three pipes are opened simultaneously, then the tank will be filled in:
+	8
+	9
+	10
+	*11
+
+3.	In 1 minute, 3/7 of a bucket is filled. The rest of the bucket will be filled in:
+	7/13 minutes
+	7/3 minutes
+	*4/3 minutes
+	None of these
+
+4.	A tap can fill a tank in 48 minutes whereas another tap can empty it in 2 hrs. If both the taps are opened at 11:40 am, then the tank will be filled at:
+	12:40 pm
+	*1:00 pm
+	1:20 pm
+	1:30 pm
+
+5.	A takes twice as much time as B or thrice as much time as C to finish a piece of work. Working together, they can finish the work in 2 days. B can do the work alone in:
+	4 days
+	*6 days
+	8 days
+	12 days
+
+6.	A and B can complete a work in 12 days. B and C complete the same work in 8 days. A and C complete it in 16 days. In total, how many days do A, B and C complete it together?
+	3  5/12
+	3  9/13
+	*7  5/13
+	7  5/12
+
+7.	Kamal can do a work in 15 days. Bimal is 50% more efficient than Kamal. The no. of days Bimal takes to do the work is:
+	7.5
+	22.5
+	*10
+	6.66
+
+8.	5 men are working to complete a work in 15 days. After 5 days, 10 women are accompanied by them to complete the work in next 5 days. If the work is done by women only, then how many days could the work be over if 10 women have started it?
+	10 days
+	12 days
+	*15 days
+	18 days
+
+9.	5 men and 2 boys working together can do four times as much work as a man and a boy. Working capacity of a man and a boy are in the ratio:
+	*2:1
+	1:2
+	2:3
+	3:1
+
+10.	A group of workers having equal efficiency can complete a job in 4 days. But it so happened that every alternate day starting from the second day, 3 workers are withdrawn from the job and every alternate day starting from the third day, 2 workers are added to the group. If it now takes 7 days to complete the job, find the no. of workers who started the job.
+	4
+	5
+	*6
+	8
+
+
+DIRECT PROPORTIONS
+1.	Two men start a journey from same place at a speed of 3kmph and 3.5kmph repectively. If they move in the same direction, then what is the distance between them after 4hrs?
+	3km
+	2.5km
+	*2km
+	500m
+
+2.	Two cyclists , k kilometres apart, and starting at the same time, would be together r hrs if they travelled in the same direction, but would pass each other in t hrs if they travelled in the opposite direction. The ratio of the speeds of the faster cyclist to that of the slower is:
+	*(r+t)/(r-t)
+	r/(r-t)
+	(r+t)/r
+	r/t
+
+3.	A train M leaves station X at 5amand reached station Y at 9am. Another traing N leaves station Y at 7 am and reaches station X at 10.30am. At what time do the trains cross each other?
+	7.36am
+	*7.56am
+	8.36am
+	8.56am
+
+4.	A man performs 2/15 of his journey by rail, 9/20 by bus and the remaining 10km on cycle. His total journey is:
+	31km
+	38.4km
+	32.66km
+	*24km
+5.	The speed of a boat in still water is 10kmph. If it travels 26km downstream and 14 km upstream in the same time, the speed of the stream is:
+	2kmph
+	2.5kmph
+	*3kmph
+	3.5kmph
+
+6.	Boat A travels downstream from point X to point Y in 3 hrs less than the time taken by Boat B to travel upstream from point Y to point Z. The distance between X and Y is 20km, which is half of the distance between Y and Z. The speed of boat B in still water is 10kmph. The speed of boat A in still water is equal to that of boat B upstream. What is the speed of boat A in still water, when the speed of the current is considered to be the same?
+	10kmph
+	12kmph
+	16kmph
+	*8kmph
+
+7.	A man wishes to cross the river perpendicularly. In still water, he takes 4 minute to cross the river, but in flowing water he takes 5 minutes. If the river is 100m wide, the velocity of the following water of the river is:
+	10m/min
+	*15m/min
+	20m/min
+	30m/min
+
+8.	A 100m long train takes 7.5seconds to cross a man walking at the rate of 5kmph in opposite direction to the train. What is the speed of the train?
+	40kmph
+	35kmph
+	*45kmph
+	55kmph
+
+9.	A 108 m long traing moving at a speed of 50kmph crosses a train 112m long coming from the opposite direction in 6 seconds. The speed of the second traing is:
+	58kmph
+	64kmph
+	76kmph
+	*82kmph
+
+10.	Two trains travel in opposite directions at 36kmph and 45kmph. A man sitting in slower train passes the faster train in 8 seconds. The length of the faster train is:
+	200m
+	80m
+	120m
+	*180m
+
+
+RATIO AND PROPORTIONS
+1.	If a:b=2/9 : 1/3, b:c=2/7 : 5/14, d:c=7/10 : 3/5, then find a:b:c:d.
+	8:12:30:17
+	5:6:7:10
+	*16:24:30:35
+	9:12:15:25
+
+2.	What is the fourth proportional to 4,9,12?
+	48
+	*27
+	4
+	36
+
+3.	If A exceeds B by 40%, B is less than C by 20%, then find A:C.
+	2:1
+	6:5
+	16:25
+	*28:25
+
+4.	The total emoluments of A, B and C are equal. However A gets 65% of his basic salary as allowances and B gets 80%of his basic salary as allowances. What is the ratio of the basic salaries of A and B?
+	5:7
+	7:9
+	*12:11
+	16:13
+
+5.	The ratio of investments of two partners A and B is 11:12. The ratio of their profits is 2:3. If A invested the money for 8 months, then for how much time B invested the money?
+	1 year
+	13 months
+	*11 months
+	10 months
+
+6.	In a partnership, A invested 1/6 of the capital for 1/6 of the time, B invested 1/3 of the capital for 1/3 of the time and C put in the rest of the capital for the whole time. Out of the profit of Rs. 4600, B's share is:
+	*330
+	360
+	320
+	400
+
+7.	20L of the mixture contains milk and water in ratio 3:1. Then the amount of milk to be added to the mixture so as to have milk in the ratio 4:1 is:
+	7L
+	4L
+	*5L
+	6L
+
+8.	A vessel is filled with liquid, 3 parts of water and 5 parts of syrup. How much of  the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup?
+	1/3
+	1/4
+	1/8
+	*1/5
+
+9.	The respective ratio of milk and water in the mixture is 4:3 respectively. If 6L of water is added to this mixture, the respective ratio of milk and water becomes 8:7. What is the quantity of milk in the original mixture?
+	36L
+	84L
+	48L
+	*None of these
+
+10.	35kg of type A sandal powder, which costs Rs. 614 per kg, was mixed with a certain amount of type B sandal powder, which costs Rs. 695 per kg. Then the mixture was sold at the rate of Rs. 767 per kg and 18% profit was earned. What was the amount of B sandal powder in the mixture?
+	24kg
+	*28kg
+	32kg
+	36kg
+
+
+PUZZLE
+1.	If rain is water, water is road, road is cloud, cloud is sky, sky is sea, and sea is path, where do aeroplanes fly?
+	Road
+	*Sea
+	Cloud
+	Water
+
+2.	In a certain code language, "po ki top" means Usha is playing cards, "kop ja ki ma" means Asha is playing tennis, "ki top sop ho" means they are playing football, and "po sur kop" means cards and tennis. Which word in that language means Asha?
+	*ja
+	ma
+	kop
+	top
+
+3.	In a certain code language, 253 means spark and fire, 456 means spark is cause, and 258 means fire is effect. Which of the followqing numerals stand for cause?
+	3
+	4
+	5
+	*6
+
+4.	Choose which of these is odd one out:
+	53
+	85
+	*125 
+	147
+
+5.	Count each 1 in the following sequenceof numbers that is immediately followed by 2, if 2 is not immediately followed by 3. 
+1 2 1 3 4 5 1 2 3 5 2 1 2 6 1 4 5 1 1 2 4 1 2 3 2 1 7 5 2 1 2 5
+How many 1s are there?
+	7
+	10
+	*4
+	5
+
+6.	If 3 is subtracted from the middle digit of each of the following numbers and then the positions are reversed, which of the following will be the last of the middle number after they are arranged in descending order?
+	4
+	2
+	*3
+	5
+
+7.	Richard is fifteenth from the front in a row of boys. There were thrice as many behind him as there were in front. How many boys are between Richard and the seventh boy from the end of the row?
+	34
+	*35
+	Data inadequate
+	36
+
+8.	In a queue, A is eighteenth from the front while B is sixteenth from the back. If C is twenty-fifth from the front and is exactly in the middle of A and B, then how many persons are there in the queue?
+	45
+	*47
+	48
+	Data inadequate
+
+9.	Reaching the place of meeting 20 minutes before 8.50hrs, Sumit found himself 30 minutes earlier that the man who came 40 minutes late. What was the scheduled time?
+	8.30
+	8.45
+	8.55
+	*Data Inadequate
+
+10.	Amonkey climbs 30 feet at the beginning of each hour and rests for a while when he slips back 20 feet before he again starts climbing in the beginning  of the next hour. If he begins his ascent at 8am, at what time will he first touch the flag at 120 feet from the ground?
+	2pm
+	4pm
+	*6pm
+	8pm
+
+
+BLOOD RELATIONS
+1.	Pointing to a lade int the photograph, Shalu said "Her son's father is the son in law of my mother". How is Shalu related to the lady in the photograph?
+	Aunt
+	*Sister
+	Mother
+	Cousin
+
+2.	A is the father of C. But C is not his son. E is the daughter of C. F is the spouse of A. B is the brother of C. D is the son of B. G is the spouse of B. H is the father of G.
+Who is the grandmother of D?
+	*F
+	C
+	H
+	Data Inadequate
+
+3.	A is the uncle of B, who is the daughter of C. C is daughter in law of P. How is A related to P?
+	Brother
+	*Son
+	Son in law
+	Data inadequate
+
+4.	A,B,C,D,E and F are six membersof a family.
+One couple has parents and their children in the family.
+A is the son of C and E is the daughter of A.
+D is the daughter of F who is the mother of E.
+How many female members are there in the family?
+	3
+	*4
+	5
+	2
+
+5.	P*Q means P is father of Q
+P-Q means P is the sister of Q
+P+Q means P is the mother of Q
+P/Q means P is brother of Q.
+Which of the following represent that J is son of F?
+	J/R-T*F
+	J+R-T*F
+	J/M-N*F
+	*None of these
+
+6.	A family has a man, his wife, their 4 sons and their wives. The family of every son has 3 sons and one daughter. Find out the total no. of male membersin whole family.
+	11
+	15
+	19
+	*17
+
+7.	P is brother of Q and R. S is R's mother. T is P's father. Which of the following statements cannot be definitely true?
+	P is S's son
+	S is P's mother
+	*Q is T's son
+	T is Q's father.
+
+8.	A man was receiving prize. Shobha said he is the brother of her uncle's daughter. Who is the man to Shobha?
+	*Cousin
+	Son
+	Brother in law
+	Nephew
+
+
+DATA SUFFICIENCY
+1.	What is the code for sky in the code language?
+    1) In the code language, sky is clear is written as de ra fa.
+    2) In the same code language, make it clear is written as de ga jo.
+	Statement 1 alone is sufficient while statement 2 is not to answer the question.
+	Either of the two statements are sufficient to answer the question.
+	*Both the statements put together are insufficient to answer the question.
+	Both the statements are necessary to answer the questions.
+
+2.	What is the code for or in the code language?
+    1) nik sa te means right or wrong. ro da nik means he is right. fe te ro means that is wrong.
+    2) pa nik la means that right man. sa ne pa means this or that. ne ka re means tell this there.
+	Statement 1 alone is sufficient while statement 2 is not to answer the question.
+	*Either of the two statements are sufficient to answer the question.
+	Both the statements put together are insufficient to answer the question.
+	Both the statements are necessary to answer the questions.
+
+3.	A is D's brother. F is mother of D. How is D related to A?
+    1) F has only one son and one daughter.
+    2) A is the only son of P, who has two children.
+	Statement 1 alone is sufficient while statement 2 is not to answer the question.
+	*Either of the two statements are sufficient to answer the question.
+	Both the statements put together are insufficient to answer the question.
+	Both the statements are necessary to answer the questions.
+
+4.	M,D,T and W are sitting around a circle facing at the centre. Who is to immediate left of D?
+    1) M is between T and W. D is to immediate left of T.
+    2) D is second to the left of M.
+	*Statement 1 alone is sufficient while statement 2 is not to answer the question.
+	Either of the two statements are sufficient to answer the question.
+	Both the statements put together are insufficient to answer the question.
+	Both the statements are necessary to answer the questions.
+
+5.	How many New Year's greeting cards were sold this year in your shop?
+    1) Last year 2935 cards were sold.
+    2) The no. of cards sold this year was 1.2 times that of last year.
+	Statement 1 alone is sufficient while statement 2 is not to answer the question.
+	Either of the two statements are sufficient to answer the question.
+	Both the statements put together are insufficient to answer the question.
+	*Both the statements are necessary to answer the questions.
+
+6.	What is DATE written in the code language?
+    1) DEAR is written as 1234.
+    2) TREAT is written as 54235.
+    3) TEAR is written as 5234.
+	Only 1 and 2
+	Only 2 and 3
+	All 1, 2 and 3
+	*Only 1 and either 2 or 3.
+
+7.	Who among Siddhartha, Nikunj, Vipul, and Mukul is the youngest?
+    1) Vipul is younger than Mukul but older than Siddhartha and Nikunj.
+    2) Mukul is the oldest.
+    3) Siddhartha is older than Nikunj.
+	Only 1
+	Only 2 and 3
+	*Only 1 and 3
+	None of these
+
+8.	Four subjects: Physics, Maths, Chemistry and Biology were taught in four consecutive periods of one hour each starting from 8 am. At what time was the Chemistry period scheduled?
+    1) Maths period ended at 10 am, which is preceeded by Biology
+    2) Physics was scheduled in the last period.
+    3) Maths period was immediately followed by Chemistry.
+	*Only 1 and either 2 or 3
+	Either 1 only or 2 and 3
+	Only 1
+	Either 1 or 3
+
+
+SIMPLE AND COMPOUND INTEREST
+1.	If x,y,z are three sums of money such that y is the simple interest on x, z is the simple interest on y for the same time and at same rate of interest, then we have:
+	x**2=yz
+	*y**2=xz
+	z**2=xy
+	xyz=1
+
+2.	A person deposited Rs.400 for 2 yrs, Rs.550 for 4 yrs and Rs.1200 for 6 yrs. He recieved the total simple interest of Rs. 1020. The rate of interest per annum is:
+	5%
+	*10%
+	15%
+	20%
+
+3.	In how much time would the simple interest on a certain sum be 0.125 times the principal at 10%per annum?
+	*1.25 yrs
+	1.75 yrs
+	2.25 yrs
+	2.75 yrs
+
+4.	A sum of Rs.1550 was lent partly at 5% and partly at 8% p.a. simple interest. The total interest received after 3 yrs was Rs.300. The ratio of money lent at 5% to that lent at 8% is:
+	5:8
+	8:5
+	*16:15
+	31:6
+
+5.	Find the sum of money which will amount to Rs.26010 in 6 months at the rate of 8% per annum when the interest is compounded quarterly.
+	Rs.24500
+	*Rs.25000
+	Rs. 25500
+	Rs. 24550
+
+6.	The difference between simple interest and compound interest on Rs.P at R%p.a. in 2 years is:
+	Rs. PR/100
+	Rs. 2PR/100
+	Rs. P(R**2)/100
+	*Rs. P(R/100)**2
+
+7.	The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half yearly is:
+	6.06%
+	6.07%
+	*6.09%
+	6.1%
+
+8.	A sum of money lent out at compound interest increases in value by 50% in 5 yrs. A person want to lend three different sums x,y,z for 10,15,20 yrs resp. at the above rate in such a way that he gets back equal sums at the end of their respective periods. The value of x:y:z should be:
+	6:9:4
+	9:4:6
+	*9:6:4
+	4:6:9
+
+
+CALENDARS
+1.	On what dates oh March 2005 did Friday fall?
+	*4,11,18,25
+	2,9,16,23,30
+	5,12,19,26
+	3,10,17,24
+
+2.	What was the day of the week on 27 May 2006?
+	Friday
+	*Saturday
+	Sunday
+	Monday
+
+3.	January 1, 2008 was a Tuesday. What day of the week lies on January 3, 2009?
+	Thursday
+	Sunday
+	*Saturday
+	Friday
+
+4.	What was the day of the week on 16 July, 1776?
+	Monday
+	Thursday
+	Wednesday
+	*Tuesday
+
+5.	What was the day of the week on 15 August 1947?
+	*Friday
+	Saturday
+	Monday
+	Wednesday
+
+6.	For a certain month, the dates of three of the Sundays are even numbers. The 15th of that month falls what day?
+	Thursday
+	Friday
+	*Saturday
+	Sunday
+
+7.	The calendar for the year 2009 will be same as that of year
+	2012
+	2013
+	2014
+	*2015
+
+8.	How many days are there in x weeks x days?
+	7x**2
+	*8x
+	14x
+	7
+
+9.	The last day of a century cannot be
+	Monday
+	Wednesday
+	Tuesday
+	Friday
+
+	
+	
