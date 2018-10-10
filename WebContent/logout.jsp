@@ -9,9 +9,10 @@
 <body>
 	
 	<div class="alert alert-primary" role="alert">
-	  YOU HAVE BEEN LOGGED OUT!
+	<h1 style="text-align: center;">YOU HAVE BEEN LOGGED OUT!</h1>
+	  
 	</div>
-	<a href="http://localhost:8080/AptiDude/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Go to Home Page</a>
+	<a style="margin-left: 45%;" href="http://localhost:8080/AptiDude/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Go to Home</a>
 	
 
 </body>

@@ -5,7 +5,7 @@
 	
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>AptiDude: Home Page</title>
+		<title>AptiDude: Developers</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="assets/Stylesheet/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/Stylesheet/main.css">
 		

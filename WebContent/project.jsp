@@ -5,7 +5,7 @@
 	
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>AptiDude: Home Page</title>
+		<title>AptiDude: Project</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="assets/Stylesheet/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/Stylesheet/main.css">
 		
@@ -53,7 +53,7 @@
 				<h2 id="getIn">Project Description</h2>
 				<div class="jumbotron">
         <h1 class="display-4">AptiDude</h1>
-        <p class="lead">In today’s world of great competition, every organization requires competent people.
+        <p class="lead">In today's world of great competition, every organization requires competent people.
 People with special abilities to find the solution to general problems quickly and
 effectively are in high demand in the industry of Information Technology. As the
 demand of organizations increases, the need for improvement in problem solving and

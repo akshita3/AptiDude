@@ -9,9 +9,9 @@
 </head>
 <body>
 	<div class="alert alert-success" role="alert">
-		<h1>Registration Successful</h1>
+		<h1 style="text-align: center;" >Registration Successful</h1>
 	</div>
-	<a href="http://localhost:8080/AptiDude/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Home</a>
+	<a style="margin-left: 45%" href="http://localhost:8080/AptiDude/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Home</a>
 	
 </body>
 </html>

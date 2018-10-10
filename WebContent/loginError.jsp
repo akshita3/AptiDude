@@ -9,9 +9,9 @@
 </head>
 <body>
 	<div class="alert alert-danger" role="alert">
-		<h1>Error in Login! Please try again...</h1>
-	</div>
-	<a href="http://localhost:8080/AptiDude/login.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Login</a>
+		<h1 style="text-align: center;">Error in Login! Please try again...</h1>
+	</div><br/>
+	<a style="margin-left: 45%;" href="http://localhost:8080/AptiDude/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Home</a>
 
 </body>
 </html>
