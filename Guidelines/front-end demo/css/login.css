@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    flex: nowrap;
+    margin-top: 70px;
+}
+
+.main div{
+    margin: 10px;
+    line-height: 20px;
+}
+
+.main #carousel{
+    width:50%;
+    height: 600px;
+    overflow: hidden;
+}
+.main #side-form{
+    width: 50%;
+    max-width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    padding-top: 5em;
+}
+
+.btn{
+    height:300%;
+    width: 25%;
+    margin-left: 1em;
+    padding: 10px;
+    font: 15px sans-serif;
+}
+
+body{
+    background-image: url('../loginbg.jpg');
+    background-size: 100%;
+}
+
+#highlight{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: rgb(204,0,0);
+}
