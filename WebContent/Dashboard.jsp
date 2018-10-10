@@ -6,78 +6,65 @@
 <meta charset="ISO-8859-1">
 <link rel="icon" href="favicon.ico">
 <title>AptiDude: Dashboard</title>
-<link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\Bootstrap.css" />
-<link href="assets/Stylesheet/dashboard.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
+<!-- <link href="assets/Stylesheet/dashboard.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="assets/Stylesheet/main.css">
 </head>
 <body>
 	
-<%
-	System.out.println("Inside DashBoard Page "+session.getAttribute("userid"));
- 	if(session.getAttribute("userid")==null){
-		response.sendRedirect("home.jsp");
- 	}
-          	
-    UserDTO userDTO = (UserDTO)session.getAttribute("userdata");
-    if(userDTO==null){
-  		response.sendRedirect("home.jsp");
-    }
+    <%
+    System.out.println("Inside DashBoard Page "+session.getAttribute("userid"));
+  UserDTO userDTO = (UserDTO)session.getAttribute("userdata");
+     if(session.getAttribute("userid")==null){
+        response.sendRedirect("home.jsp");
+     }
+     else if(userDTO==null){
+           response.sendRedirect("home.jsp");
+     }
     boolean isActive = true;
 %>
-          
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">AptiDude</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://localhost:8080/AptiDude/Dashboard.jsp">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="logout">Log Out</a></li>
-          </ul>
-<!--           <form class="navbar-form navbar-right"> -->
-<!--             <input type="text" class="form-control" placeholder="Search..."> -->
-<!--           </form> -->
-        </div>
-      </div>
-    </nav>
-    
-   
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar">
-          <% 
-          if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
-          for(RightDTO rightDTO : userDTO.getRights()) { %>
-          <li class="<%=isActive?"active":"" %>"><a href="<%=rightDTO.getScreenName()%>"><%=rightDTO.getRightName() %></a></li>
-          <%
-          isActive = false;
-          }
-          }
-          %>
-           <!--  <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li> -->
-          </ul>
-         
-         
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          
-         <% if(userDTO!=null){ %>
-          <h1 class="page-header">Welcome <%=session.getAttribute("firstName") %>, You are <%=userDTO.getRoleName() %></h1>
-		<% } %>
-		</div>
-      </div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="color: #4CB853" href="home.jsp"><h1>AptiDude</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+      <form action="logout">
+                    <button class="btn-outline-danger btn-sm" type="submit" >logout</button>
+                </form>
+            </li>
+        </ul>
     </div>
+</nav>
+
+<nav class="nav nav-pills nav-fill " style="background-color:rgba(26, 32, 119, 0.849)">
+  <a class="nav-item nav-link" href="home.jsp" style="color: rgb(76, 184, 83)">Home</a>
+  <% 
+      if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
+      for(RightDTO rightDTO : userDTO.getRights()) { %>
+      <a class="nav-item nav-link" href="<%=rightDTO.getScreenName()%>" style="color: rgb(76, 184, 83)"><%=rightDTO.getRightName() %></a>
+      <%
+      isActive = false;
+      }
+      }
+      %>
+<!--   <a class="nav-item nav-link" href="developers.jsp" style="color: rgb(76, 184, 83)">Developers</a> -->
+<!--   <a class="nav-item nav-link" href="project.jsp" style="color: rgb(76, 184, 83)">Project</a> -->
+<!--   <a class="nav-item nav-link" href="contact.jsp" style="color: rgb(76, 184, 83)">Contact Us</a> -->
+</nav>
+
+<div id="shareer">
+
+<div class="main">
+  <h1 id="welcome">Welcome <%=session.getAttribute("firstName") %> !</h1>
+  
+</div>
+</div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>

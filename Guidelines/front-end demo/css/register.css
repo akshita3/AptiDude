@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.navbar{
+/* .navbar{
     position:fixed;
     background-color:transparent;
     width:100%;
@@ -12,12 +12,20 @@
 
 .navbar h1{
     text-align: center;
-}
+} */
 
 .main{
     margin: 0 auto;
     max-width: 50%;
 }
+
+#getIn{
+    margin-left: 42%;
+    color: darkslateblue;
+    font-family: fantasy;
+    font-style: italic;
+}
+
 #shareer{
     margin-top:70px;    
 }

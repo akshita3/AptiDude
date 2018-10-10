@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .navbar{
+    position:fixed;
+    background-color:transparent;
+    width:100%;
+    top:0px;
+    align: center;
+}
+
+.navbar h1{
+    text-align: center;
+} */
+
+.main{
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+#getIn{
+    text-align: center;
+    color: darkslateblue;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#welcome{
+    text-align: center;
+    color: darkslateblue;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 100px;
+}
+
+#shareer{
+    margin-top:70px;    
+}
+
+.btn{
+    margin-top: 10px;
+}
+body{
+    /* background:linear-gradient(#fc133a,#ff6427); */
+    /* background: radial-gradient(#fcc613,#ff6427); */
+    background-image: url('../images/wp2566041.jpg');
+    background-size: 100%;
+}

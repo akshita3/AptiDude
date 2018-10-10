@@ -13,14 +13,13 @@
 	
 	<body>
 	
-	 <%
+	<%
     System.out.println("Inside Home Page "+session.getAttribute("userid"));
      if(session.getAttribute("userid")!=null){
         response.sendRedirect("Dashboard.jsp");
      }
     boolean isActive = true;
 %>
-
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" style="color: #4CB853" href="home.jsp"><h1>AptiDude</h1></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -51,37 +50,31 @@
 		<div id="shareer">
 			
 			<div class="main">
-				<h2 id="getIn">Sign Up !</h2>
-				<form action="register">
-					<br/>
-					<div class="form-group">
-						<label for="exampleInputEmail1">Email address: </label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailid" placeholder="Enter email">
-						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-					</div>
-					<div class="form-group">
-						<label for="exampleInputPassword1">Password: </label>
-						<input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
-					</div>
-					<div class="form-group">
-						<label for="exampleInputPassword1">Confirm Password: </label>
-						<input type="password" class="form-control" id="exampleInputPassword1" name="cpwd" placeholder="Password">
-					</div>
-					<div class="form-row">
-						<div class="col">
-							<label for="firstname">First Name: </label>
-							<input name="firstname" type="text" class="form-control" placeholder="First name">
-						</div>
-						<div class="col">
-							<label for="lastname">Last Name: </label>
-							<input name="lastname" type="text" class="form-control" placeholder="Last name">
-						</div>
-					</div>
-					<div>
-						<button type="reset" class="btn btn-primary">Reset</button>
-						<button type="submit" class="btn btn-success">Submit</button>
-					</div>
-				</form>
+				<h2 id="getIn">Developers</h2>
+				<div class="card-deck" style="width: 100%; height: 50%;">
+        			<div class="card" style="width: 50%; size: 50%;">
+            			<img class="card-img-top" src="assets/images/Dev_1.jpeg" alt="Card image cap">
+            			<div class="card-body">
+                			<h5 class="card-title">Akshita Aggarwal</h5>
+                			<p class="card-text">
+                    			Content & UI Developer <br>
+                    			IT-7th Sem <br>
+                   				00220803115 <br>
+                			</p>
+            			</div>
+        			</div>
+        			<div class="card" style="width: 50%; size: 50%;">
+            			<img class="card-img-top" src="assets/images/Dev_3.jpg" alt="Card image cap">
+            			<div class="card-body">
+                			<h5 class="card-title">Rohit Meghwal</h5>
+                			<p class="card-text">
+                    			Back-End Developer <br>
+                    			IT-7th Sem <br>
+                    			02720803115 <br>
+                			</p>
+            			</div>
+        			</div>
+    			</div>
 			</div>
 		</div>
 		<script src="assets\javascript\bootstrap.min.js"></script>
