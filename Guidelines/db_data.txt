@@ -208,7 +208,7 @@ PUZZLE
 4.	Choose which of these is odd one out:
 	53
 	85
-	*125 
+	*125
 	147
 
 5.	Count each 1 in the following sequenceof numbers that is immediately followed by 2, if 2 is not immediately followed by 3. 
@@ -480,7 +480,7 @@ CALENDARS
 9.	The last day of a century cannot be
 	Monday
 	Wednesday
-	Tuesday
+	*Tuesday
 	Friday
 
 	

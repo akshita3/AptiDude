@@ -46,6 +46,7 @@
 				<input  class="btn btn-outline-primary" name="category" type="submit" value="Ratio and Proportions"/><br/>
 				<input  class="btn btn-outline-primary" name="category" type="submit" value="Puzzle"/><br/>
 				<input  class="btn btn-outline-primary" name="category" type="submit" value="Blood Relations"/><br/>
+				<input  class="btn btn-outline-primary" name="category" type="submit" value="Simple and Compound Interest"/><br/>
 				<input  class="btn btn-outline-primary" name="category" type="submit" value="Calendars"/><br/>
        			<hr class="my-4">	
 			</form>

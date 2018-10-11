@@ -1,7 +1,6 @@
 package com.aptidude.app;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
@@ -13,7 +12,7 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
-import com.aptidude.app.dao.UserDAO;
+import com.aptidude.app.dao.TestDAO;
 
 /**
  * Servlet implementation class LogoutServlet
@@ -30,6 +29,13 @@ public class LogoutServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession(false);
+		TestDAO testDAO = new TestDAO();
+		try {
+			int points = testDAO.resetPoints(session.getAttribute("userid").toString());
+		} 
+		catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
 		session.invalidate();
 		response.sendRedirect("logout.jsp");
 	}

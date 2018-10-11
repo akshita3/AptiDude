@@ -27,7 +27,7 @@ public class TestDAO {
 	
 		conn = getConnection();
 		pstmt = conn.prepareStatement(QUESTIONS_SQL);
-		pstmt.setString(1, "Time and Work");
+		pstmt.setString(1, topic);
 		rs = pstmt.executeQuery();
 		while(rs.next()) {
 			if(testDTO == null) {

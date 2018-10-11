@@ -28,15 +28,14 @@ public class CheckTestServlet extends HttpServlet {
 		HttpSession session = request.getSession(false);
 		int qstnNo = (int)session.getAttribute("qstnNo");
 		int totalCorrect = (int)session.getAttribute("totalCorrect");
-		
-		int points=-500;
+		int points = (int)session.getAttribute("points");
 		String ans = request.getParameter("option");
 		System.out.println("chosen answer is: " + ans);
 		TestDAO testDAO = new TestDAO();
 		TestDTO testDTO = (TestDTO)session.getAttribute("qstnData");
 		String emailid = (String)session.getAttribute("userid");
 		
-		if(ans.equals(testDTO.getQuestions().get(0).getAnswer())) {
+		if(ans.equals(testDTO.getQuestions().get(qstnNo-1).getAnswer())) {
 			try {
 				points = testDAO.addPoints(emailid);
 				System.out.println("Points increased to: " + points);
@@ -58,6 +57,7 @@ public class CheckTestServlet extends HttpServlet {
 		}
 		session.setAttribute("points", points);
 		qstnNo++;
+		session.setAttribute("qstnNo", qstnNo);
 		if(qstnNo<=5) {
 			response.sendRedirect("takeTest" + qstnNo + ".jsp");
 		}

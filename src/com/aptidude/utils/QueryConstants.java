@@ -15,7 +15,7 @@ public interface QueryConstants {
 	String ROLEID_SQL = "SELECT ROLEID FROM ROLE_MST WHERE ROLENAME=?";
 	String DELETE_USER_SQL = "DELETE FROM USER_MST WHERE EMAILID=?";
 	
-	String QUESTIONS_SQL = "select qstn,options,answer,topicname from qstn_mst,topic_mst where topic_mst.topicname=?;";
+	String QUESTIONS_SQL = "select qstn,options,answer,topicname from qstn_mst,topic_mst where topic_mst.topicname=? and topic_mst.topicid=qstn_mst.topicid;";
 	
 	String GET_POINTS_SQL = "select points from user_mst where emailid=?;";
 	String PUT_POINTS_SQL = "update user_mst set points=? where emailid=?;";

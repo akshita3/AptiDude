@@ -30,9 +30,52 @@ INSERT INTO ROLE_RIGHT_MAPPING(ROLEID,RIGHTID) VALUES(2,5);
 
 INSERT INTO USER_MST(EMAILID,PASSWORD,FIRSTNAME,ROLEID) VALUES('admin','admin','Administrator',1);
 
-INSERT INTO TOPIC_MST(TOPICNAME,DESCRIPTION) VALUES('Time and Work','Time and Work');
+INSERT INTO TOPIC_MST(TOPICNAME,DESCRIPTION) VALUES('Ratio and Proportions','Ratio and Proportions');
+INSERT INTO TOPIC_MST(TOPICNAME,DESCRIPTION) VALUES('Puzzle','Puzzle');
+INSERT INTO TOPIC_MST(TOPICNAME,DESCRIPTION) VALUES('Blood Relations','Blood Relations');
+INSERT INTO TOPIC_MST(TOPICNAME,DESCRIPTION) VALUES('Simple and Compound Interest','Simple and Compound Interest');
+INSERT INTO TOPIC_MST(TOPICNAME,DESCRIPTION) VALUES('Calendars','Calendars');
 
-INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?',ARRAY['25 days','30 days','23 days','35 days'],'35 days',1);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('If a:b=2/9 : 1/3, b:c=2/7 : 5/14, d:c=7/10 : 3/5, then find a:b:c:d.',ARRAY['8:12:30:17','5:6:7:10','16:24:30:35','9:12:15:25'],'16:24:30:35',2);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('What is the fourth proportional to 4,9,12?',ARRAY['48','27','4','36'],'27',2);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('If A exceeds B by 40%, B is less than C by 20%, then find A:C.',ARRAY['2:1','6:5','16:25','28:25'],'28:25',2);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('The total emoluments of A, B and C are equal. However A gets 65% of his basic salary as allowances and B gets 80%of his basic salary as allowances. What is the ratio of the basic salaries of A and B?',ARRAY['5:7','7:9','12:11','16:13'],'12:11',2);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('The ratio of investments of two partners A and B is 11:12. The ratio of their profits is 2:3. If A invested the money for 8 months, then for how much time B invested the money?',ARRAY['1 year','13 months','11 months','10 months'],'11 months',2);
+
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('If rain is water, water is road, road is cloud, cloud is sky, sky is sea, and sea is path, where do aeroplanes fly?',ARRAY['Road','Sea','Cloud','Water'],'Sea',3);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('In a certain code language, "po ki top" means Usha is playing cards, "kop ja ki ma" means Asha is playing tennis, "ki top sop ho" means they are playing football, and "po sur kop" means cards and tennis. Which word in that language means Asha?',ARRAY['ja','ma','kop','top'],'ja',3);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('In a certain code language, 253 means spark and fire, 456 means spark is cause, and 258 means fire is effect. Which of the followqing numerals stand for cause?',ARRAY['3','4','5','6'],'6',3);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('Choose which of these is odd one out:',ARRAY['53','85','125','147'],'125',3);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('Count each 1 in the following sequenceof numbers that is immediately followed by 2, if 2 is not immediately followed by 3. 
+1 2 1 3 4 5 1 2 3 5 2 1 2 6 1 4 5 1 1 2 4 1 2 3 2 1 7 5 2 1 2 5
+How many 1s are there?',ARRAY['7','10','4','5'],'4',3);
+
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('Pointing to a lady in the photograph, Shalu said "Her son''s father is the son in law of my mother". How is Shalu related to the lady in the photograph?',ARRAY['Aunt','Sister','Mother','Cousin'],'Sister',4);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('A is the father of C. But C is not his son. E is the daughter of C. F is the spouse of A. B is the brother of C. D is the son of B. G is the spouse of B. H is the father of G.
+Who is the grandmother of D?',ARRAY['F','C','H','Data Inadequate'],'F',4);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('A is the uncle of B, who is the daughter of C. C is daughter in law of P. How is A related to P?',ARRAY['Brother','Son','Son in law','Data inadequate'],'Son',4);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('A,B,C,D,E and F are six membersof a family.
+One couple has parents and their children in the family.
+A is the son of C and E is the daughter of A.
+D is the daughter of F who is the mother of E.
+How many female members are there in the family?',ARRAY['3','4','5','2'],'4',4);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('P*Q means P is father of Q
+P-Q means P is the sister of Q
+P+Q means P is the mother of Q
+P/Q means P is brother of Q.
+Which of the following represent that J is son of F?',ARRAY['J/R-T*F','J+R-T*F','J/M-N*F','None of these'],'None of these',4);
+
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('If x,y,z are three sums of money such that y is the simple interest on x, z is the simple interest on y for the same time and at same rate of interest, then we have:',ARRAY['x**2=yz','y**2=xz','z**2=xy','xyz=1'],'y**2=xz',5);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('A person deposited Rs.400 for 2 yrs, Rs.550 for 4 yrs and Rs.1200 for 6 yrs. He recieved the total simple interest of Rs. 1020. The rate of interest per annum is:',ARRAY['5%','10%','15%','20%'],'10%',5);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('In how much time would the simple interest on a certain sum be 0.125 times the principal at 10%per annum?',ARRAY['1.25 yrs','1.75 yrs','2.25 yrs','2.75 yrs'],'1.25 yrs',5);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('A sum of Rs.1550 was lent partly at 5% and partly at 8% p.a. simple interest. The total interest received after 3 yrs was Rs.300. The ratio of money lent at 5% to that lent at 8% is:',ARRAY['5:8','8:5','16:15','31:6'],'16:15',5);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('Find the sum of money which will amount to Rs.26010 in 6 months at the rate of 8% per annum when the interest is compounded quarterly.',ARRAY['Rs.24500','Rs.25000','Rs.25500','Rs.24550'],'Rs.25000',5);
+
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('What was the day of the week on 27 May 2006?',ARRAY['Friday','Saturday','Sunday','Monday'],'Saturday',6);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('For a certain month, the dates of three of the Sundays are even numbers. The 15th of that month falls what day?',ARRAY['Thursday','Friday','Saturday','Sunday'],'Saturday',6);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('The calendar for the year 2009 will be same as that of year',ARRAY['2012','2013','2014','2015'],'2015',6);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('How many days are there in x weeks x days?',ARRAY['7x**2','8x','14x','7'],'8x',6);
+INSERT INTO QSTN_MST(QSTN,OPTIONS,ANSWER,TOPICID) VALUES('The last day of a century cannot be',ARRAY['Monday','Wednesday','Tuesday','Friday'],'Tuesday',6);
 
 
 
