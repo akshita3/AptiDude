@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1" import="com.aptidude.app.dto.*" %>
+<%@ page import="com.aptidude.app.dao.*" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>AptiDude: Test</title>
+<title>AptiDude: Test Result</title>
 <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 <link rel="stylesheet" href="assets/Stylesheet/main.css">
 </head>
@@ -20,10 +21,9 @@
      }
     boolean isActive = true;
     
-    TestDTO testDTO = (TestDTO)session.getAttribute("qstnData");
-    String qstn = testDTO.getQuestions().get(0).getQstn();
-	String[] options = (String[])testDTO.getQuestions().get(0).getOptions().getArray();
-    String answer = testDTO.getQuestions().get(0).getAnswer();
+    int points = (int)session.getAttribute("points");
+    int totalQstns = (int)session.getAttribute("qstnNo") - 1;
+    int totalCorrect = (int)session.getAttribute("totalCorrect");
 %>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,30 +48,31 @@
 			
 			<div class="main">
 				<div class="jumbotron">
-					<form action="checkTest">
-                        <h3>Q<%=session.getAttribute("qstnNo")%>.  <%= qstn %></h3> 
-                        <label class="btn btn-outline-info">
-                            <input type="radio" name="option" value="<%= options[0] %>"> a.  <%= options[0] %>
-                        </label><br/>
-                        <label class="btn btn-outline-info">
-                            <input type="radio" name="option" value="<%= options[1] %>"> b.  <%= options[1] %>
-                        </label><br/>
-                        <label class="btn btn-outline-info">
-                            <input type="radio" name="option" value="<%= options[2] %>"> c.  <%= options[2] %>
-                        </label><br/>
-                        <label class="btn btn-outline-info">
-                            <input type="radio" name="option" value="<%= options[3] %>"> d.  <%= options[3] %>
-                        </label><br/>
-                        <hr class="my-4">
-                        <button type="submit" class="btn btn-success">Submit</button>
-					</form>
+					<table class="table table-dark table-hover">
+							<tr>
+								<td><p class="display-4">Total Questions :</p></td>
+								<td><p class="display-4"><%= totalQstns %></p></td>
+							</tr>
+							<tr>
+								<td><p class="display-4">Total Correct :</p></td>
+								<td><p class="display-4"><%= totalCorrect %></p></td>
+							</tr>
+							<tr>
+								<td><p class="display-4">Score :</p></td>
+								<td><p class="display-4"><%= points %> / 15</p></td>
+							</tr>
+					</table>
+					<hr class="m-4">
+					<a style="margin-left: 35%;" href="http://localhost:8080/AptiDude/Dashboard.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Home</a>
 			    </div>
 			</div>
 		</div>
 
-
-    
-    
+<%
+	TestDAO testDAO = new TestDAO();
+	int resetPoints = testDAO.resetPoints(session.getAttribute("userid").toString());
+	session.setAttribute("points", resetPoints);
+%>
 	
 </body>
 </html>

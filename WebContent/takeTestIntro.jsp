@@ -39,20 +39,19 @@
 </nav>
 
 <div id="shareer">
-			
-			<div class="main">
-				<div class="jumbotron">
-        <h1 class="display-4">Instructions for Test :</h1><br/>
-        <p class="lead">-> Each question has 4 options.</p>
-    	<p class="lead">-> Only 1 option is correct.</p>
-    	<p class="lead">-> Correct response gives 3 points.</p>
-    	<p class="lead">-> Incorrect response takes away 1 point.</p>
-        <hr class="my-4">
-        <a style="margin-left: 33%;" href="http://localhost:8080/AptiDude/takeTest.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Proceed to Test</a>
-	
-    </div>
-			</div>
-		</div>
+	<div class="main">
+		<div class="jumbotron">
+			<h3 style="text-align: center;">Choose Category :</h3>
+			<form action="test">
+				<input  class="btn btn-outline-primary" name="category" type="submit" value="Ratio and Proportions"/><br/>
+				<input  class="btn btn-outline-primary" name="category" type="submit" value="Puzzle"/><br/>
+				<input  class="btn btn-outline-primary" name="category" type="submit" value="Blood Relations"/><br/>
+				<input  class="btn btn-outline-primary" name="category" type="submit" value="Calendars"/><br/>
+       			<hr class="my-4">	
+			</form>
+   		</div>
+	</div>
+</div>
 		
 </body>
 </html>

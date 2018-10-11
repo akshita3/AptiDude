@@ -22,6 +22,9 @@
            response.sendRedirect("home.jsp");
      }
     boolean isActive = true;
+    session.setAttribute("qstnNo", 0);
+    session.setAttribute("totalCorrect", 0);
+    session.setAttribute("points", 0);
 %>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">

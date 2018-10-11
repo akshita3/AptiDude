@@ -9,9 +9,9 @@
 </head>
 <body>
 	<div class="alert alert-success" role="alert">
-		<h1>Profile Updated !</h1>
+		<h1 style="text-align: center;">Profile Updated !</h1>
 	</div>
-	<a href="http://localhost:8080/AptiDude/Dashboard.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Dashboard</a>
+	<a style="margin-left: 40%;" href="http://localhost:8080/AptiDude/Dashboard.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Dashboard</a>
 	
 </body>
 </html>

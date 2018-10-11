@@ -800,3 +800,385 @@
 2018-10-10 14:04:19 DEBUG LoginServlet:43 - Session ID: BE1334E05673AA6D4ED0782E4011839A
 2018-10-10 14:04:19 DEBUG LoginServlet:44 - Session Created at: 1539160413659
 2018-10-10 14:04:19 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 03:55:42 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 03:55:42 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 03:55:42 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 03:55:42 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 03:55:42 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 03:55:42 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 03:55:42 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 03:55:42 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 03:55:42 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 03:55:42 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 03:55:42 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 03:55:42 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 03:55:42 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 03:55:42 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 03:55:42 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 03:55:42 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 03:55:42 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 03:55:42 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@7856e865
+2018-10-11 03:55:42 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 03:55:42 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@7856e865
+2018-10-11 03:55:42 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 03:55:42 DEBUG LoginServlet:43 - Session ID: D199945E045CE7A5FC17F61AD128487A
+2018-10-11 03:55:42 DEBUG LoginServlet:44 - Session Created at: 1539210333157
+2018-10-11 03:55:42 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 03:55:50 DEBUG TestDAO:34 - TestDTO Object created in loop.
+2018-10-11 03:55:50 DEBUG TestDAO:36 - topicname: Time and Work
+2018-10-11 03:55:50 DEBUG TestDAO:42 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 03:55:50 DEBUG TestDAO:44 - answer: 35 days
+2018-10-11 03:55:50 DEBUG TestDAO:46 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 03:57:35 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 03:57:35 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 03:57:35 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 03:57:35 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 03:57:35 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 03:57:35 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 03:57:35 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 03:57:35 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 03:57:35 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 03:57:35 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 03:57:35 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 03:57:35 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 03:57:35 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 03:57:35 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 03:57:35 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 03:57:35 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 03:57:35 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 03:57:35 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@7fd13547
+2018-10-11 03:57:35 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 03:57:35 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@7fd13547
+2018-10-11 03:57:35 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 03:57:35 DEBUG LoginServlet:43 - Session ID: ADCEEC5F4FE7F8BA8E1ED925DBE9D790
+2018-10-11 03:57:35 DEBUG LoginServlet:44 - Session Created at: 1539210447009
+2018-10-11 03:57:35 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 03:57:39 DEBUG TestDAO:34 - TestDTO Object created in loop.
+2018-10-11 03:57:39 DEBUG TestDAO:36 - topicname: Time and Work
+2018-10-11 03:57:39 DEBUG TestDAO:42 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 03:57:39 DEBUG TestDAO:44 - answer: 35 days
+2018-10-11 03:57:39 DEBUG TestDAO:46 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:08:08 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 04:08:08 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 04:08:08 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 04:08:08 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 04:08:08 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 04:08:08 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 04:08:08 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 04:08:08 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 04:08:08 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 04:08:08 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 04:08:08 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 04:08:08 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:08:08 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:08:08 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:08:08 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:08:08 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:08:08 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:08:08 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@11cb638
+2018-10-11 04:08:08 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 04:08:08 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@11cb638
+2018-10-11 04:08:08 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 04:08:08 DEBUG LoginServlet:43 - Session ID: EE9FE63B9558F6081203F7075AD16F17
+2018-10-11 04:08:08 DEBUG LoginServlet:44 - Session Created at: 1539211073086
+2018-10-11 04:08:08 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 04:08:11 DEBUG TestDAO:34 - TestDTO Object created in loop.
+2018-10-11 04:08:11 DEBUG TestDAO:36 - topicname: Time and Work
+2018-10-11 04:08:11 DEBUG TestDAO:42 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:08:11 DEBUG TestDAO:44 - answer: 35 days
+2018-10-11 04:08:11 DEBUG TestDAO:46 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:08:26 DEBUG TestDAO:34 - TestDTO Object created in loop.
+2018-10-11 04:08:26 DEBUG TestDAO:36 - topicname: Time and Work
+2018-10-11 04:08:26 DEBUG TestDAO:42 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:08:26 DEBUG TestDAO:44 - answer: 35 days
+2018-10-11 04:08:26 DEBUG TestDAO:46 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:44:38 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 04:44:38 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 04:44:38 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 04:44:39 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 04:44:39 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 04:44:39 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 04:44:39 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 04:44:39 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 04:44:39 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 04:44:39 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 04:44:39 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 04:44:39 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:44:39 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:44:39 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:44:39 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:44:39 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:44:39 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:44:39 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@72ecb39a
+2018-10-11 04:44:39 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 04:44:39 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@72ecb39a
+2018-10-11 04:44:39 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 04:44:39 DEBUG LoginServlet:43 - Session ID: 0D7D1D6BE5BAF6F94F1CB1B04B0089C5
+2018-10-11 04:44:39 DEBUG LoginServlet:44 - Session Created at: 1539213272113
+2018-10-11 04:44:39 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 04:44:42 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 04:44:42 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 04:44:42 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:44:42 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 04:44:42 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:46:43 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 04:46:43 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 04:46:43 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 04:46:43 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 04:46:43 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 04:46:43 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 04:46:43 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 04:46:43 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 04:46:43 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 04:46:43 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 04:46:43 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 04:46:43 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:46:43 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:46:43 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:46:43 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:46:43 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:46:43 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:46:43 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@17f7a42c
+2018-10-11 04:46:43 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 04:46:43 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@17f7a42c
+2018-10-11 04:46:43 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 04:46:43 DEBUG LoginServlet:43 - Session ID: 2F6A7808AE39728585D443B6E7466C25
+2018-10-11 04:46:43 DEBUG LoginServlet:44 - Session Created at: 1539213397030
+2018-10-11 04:46:43 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 04:46:47 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 04:46:47 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 04:46:47 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:46:47 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 04:46:47 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:48:35 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 04:48:35 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 04:48:36 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 04:48:36 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 04:48:36 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 04:48:36 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 04:48:36 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 04:48:36 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 04:48:36 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 04:48:36 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 04:48:36 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 04:48:36 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:48:36 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:48:36 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:48:36 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:48:36 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:48:36 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:48:36 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@2abe8453
+2018-10-11 04:48:36 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 04:48:36 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@2abe8453
+2018-10-11 04:48:36 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 04:48:36 DEBUG LoginServlet:43 - Session ID: 03D0A966BA14E516A98804A50776BF0A
+2018-10-11 04:48:36 DEBUG LoginServlet:44 - Session Created at: 1539213504119
+2018-10-11 04:48:36 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 04:48:39 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 04:48:39 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 04:48:39 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:48:39 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 04:48:39 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:52:19 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 04:52:19 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 04:52:19 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 04:52:19 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 04:52:19 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 04:52:19 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 04:52:19 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 04:52:19 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 04:52:19 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 04:52:19 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 04:52:19 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 04:52:19 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:52:19 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:52:19 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:52:19 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:52:19 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:52:19 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:52:19 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@3038aba7
+2018-10-11 04:52:19 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 04:52:19 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@3038aba7
+2018-10-11 04:52:19 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 04:52:19 DEBUG LoginServlet:43 - Session ID: FC48B0DDF518192FE4976032D96FDA2A
+2018-10-11 04:52:19 DEBUG LoginServlet:44 - Session Created at: 1539213731236
+2018-10-11 04:52:19 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 04:52:22 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 04:52:22 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 04:52:22 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:52:22 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 04:52:22 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 04:53:58 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 04:53:58 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 04:53:58 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 04:53:58 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 04:53:58 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 04:53:58 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 04:53:58 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 04:53:58 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 04:53:58 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 04:53:58 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 04:53:58 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 04:53:58 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:53:58 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:53:58 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:53:58 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 04:53:58 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 04:53:58 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 04:53:58 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@62e06d6b
+2018-10-11 04:53:58 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 04:53:58 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@62e06d6b
+2018-10-11 04:53:58 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 04:53:58 DEBUG LoginServlet:43 - Session ID: EC39E8051F0B98F3C2E0D126EF65E44D
+2018-10-11 04:53:58 DEBUG LoginServlet:44 - Session Created at: 1539213832627
+2018-10-11 04:53:58 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 04:54:02 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 04:54:02 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 04:54:02 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 04:54:02 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 04:54:02 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 05:44:36 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 05:44:36 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 05:44:36 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 05:44:36 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 05:44:36 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 05:44:36 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 05:44:36 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 05:44:36 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 05:44:36 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 05:44:36 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 05:44:36 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 05:44:36 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 05:44:36 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 05:44:36 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 05:44:36 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 05:44:36 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 05:44:36 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 05:44:36 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@37b7bacb
+2018-10-11 05:44:36 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 05:44:36 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@37b7bacb
+2018-10-11 05:44:36 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 05:44:36 DEBUG LoginServlet:43 - Session ID: 66A6C1D6D589230A7EBB3BDD6CB29FB2
+2018-10-11 05:44:36 DEBUG LoginServlet:44 - Session Created at: 1539216823276
+2018-10-11 05:44:36 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 05:45:03 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 05:45:03 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 05:45:03 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 05:45:03 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 05:45:03 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 05:57:49 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 05:57:49 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 05:57:49 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 05:57:49 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 05:57:49 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 05:57:49 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 05:57:49 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 05:57:49 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 05:57:49 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 05:57:49 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 05:57:49 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 05:57:49 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 05:57:49 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 05:57:49 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 05:57:49 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 05:57:49 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 05:57:49 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 05:57:49 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@7f46a1ed
+2018-10-11 05:57:49 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 05:57:49 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@7f46a1ed
+2018-10-11 05:57:49 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 05:57:49 DEBUG LoginServlet:43 - Session ID: 8ECEC474C2F46724DE65803D88E79F9E
+2018-10-11 05:57:49 DEBUG LoginServlet:44 - Session Created at: 1539217657663
+2018-10-11 05:57:49 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 05:57:57 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 05:57:57 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 05:57:57 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 05:57:57 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 05:57:57 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 13:55:28 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 13:55:28 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 13:55:28 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 13:55:28 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 13:55:28 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 13:55:28 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 13:55:28 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 13:55:28 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 13:55:28 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 13:55:28 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 13:55:28 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 13:55:28 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 13:55:28 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 13:55:28 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 13:55:28 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 13:55:28 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 13:55:28 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 13:55:28 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@1e3919e4
+2018-10-11 13:55:28 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 13:55:28 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@1e3919e4
+2018-10-11 13:55:28 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 13:55:28 DEBUG LoginServlet:43 - Session ID: 64267838F4FB0BC8FE57C990DE51B005
+2018-10-11 13:55:28 DEBUG LoginServlet:44 - Session Created at: 1539246291823
+2018-10-11 13:55:28 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 13:56:10 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 13:56:10 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 13:56:10 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 13:56:10 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 13:56:10 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 13:58:37 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 13:58:37 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 13:58:37 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 13:58:38 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 13:58:38 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 13:58:38 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 13:58:38 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 13:58:38 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 13:58:38 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 13:58:38 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 13:58:38 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 13:58:38 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 13:58:38 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 13:58:38 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 13:58:38 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 13:58:38 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 13:58:38 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 13:58:38 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@6c279f47
+2018-10-11 13:58:38 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 13:58:38 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@6c279f47
+2018-10-11 13:58:38 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 13:58:38 DEBUG LoginServlet:43 - Session ID: B3EC698E7315C9E6CF09BFB7BF42B085
+2018-10-11 13:58:38 DEBUG LoginServlet:44 - Session Created at: 1539246505149
+2018-10-11 13:58:38 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 13:58:44 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 13:58:44 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 13:58:44 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 13:58:44 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 13:58:44 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}
+2018-10-11 14:02:55 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 14:02:55 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 14:02:55 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 14:02:55 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 14:02:55 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 14:02:55 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 14:02:55 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 14:02:55 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 14:02:55 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 14:02:55 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 14:02:55 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 14:02:55 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 14:02:55 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 14:02:55 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 14:02:55 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 14:02:55 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 14:02:55 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 14:02:55 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@47af51b7
+2018-10-11 14:02:55 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 14:02:55 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@47af51b7
+2018-10-11 14:02:55 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 14:02:55 DEBUG LoginServlet:43 - Session ID: 5E04AD85686EC9C741F042462DF63CAB
+2018-10-11 14:02:55 DEBUG LoginServlet:44 - Session Created at: 1539246688051
+2018-10-11 14:02:55 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 14:04:16 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 14:04:16 DEBUG TestDAO:37 - topicname: Time and Work
+2018-10-11 14:04:16 DEBUG TestDAO:43 - qstn: A can do a work in 14 days and working together A and B can do the same work in 10 days. In what time can B alone do the work?
+2018-10-11 14:04:16 DEBUG TestDAO:45 - answer: 35 days
+2018-10-11 14:04:16 DEBUG TestDAO:47 - options: {"25 days","30 days","23 days","35 days"}

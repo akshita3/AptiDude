@@ -8,10 +8,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
-	<div class="alert alert-success" role="alert">
-		<h1>Error in updation !</h1>
+	<div class="alert alert-danger" role="alert">
+		<h1 style="text-align: center;">Error in updation !</h1>
 	</div>
-	<a href="http://localhost:8080/AptiDude/updateProfile.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Try Again</a>
+	<a style="margin-left: 45%;" href="http://localhost:8080/AptiDude/updateProfile.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Try Again</a>
 	
 </body>
 </html>

@@ -21,9 +21,9 @@
     boolean isActive = true;
     
     TestDTO testDTO = (TestDTO)session.getAttribute("qstnData");
-    String qstn = testDTO.getQuestions().get(0).getQstn();
-	String[] options = (String[])testDTO.getQuestions().get(0).getOptions().getArray();
-    String answer = testDTO.getQuestions().get(0).getAnswer();
+    String qstn = testDTO.getQuestions().get(2).getQstn();
+	String[] options = (String[])testDTO.getQuestions().get(2).getOptions().getArray();
+	String answer = testDTO.getQuestions().get(2).getAnswer();
 %>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
