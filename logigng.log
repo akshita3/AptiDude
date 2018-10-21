@@ -1,0 +1,206 @@
+2018-10-11 21:09:16 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-11 21:09:16 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-11 21:09:16 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-11 21:09:16 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-11 21:09:16 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-11 21:09:16 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-11 21:09:16 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-11 21:09:16 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-11 21:09:16 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-11 21:09:16 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-11 21:09:16 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-11 21:09:16 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 21:09:16 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 21:09:16 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 21:09:16 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-11 21:09:16 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-11 21:09:16 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-11 21:09:16 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@116ac16b
+2018-10-11 21:09:16 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-11 21:09:16 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@116ac16b
+2018-10-11 21:09:16 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-11 21:09:16 DEBUG LoginServlet:43 - Session ID: A601D242E192935C1D2CD70695285F80
+2018-10-11 21:09:16 DEBUG LoginServlet:44 - Session Created at: 1539272333496
+2018-10-11 21:09:16 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-11 21:09:54 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-11 21:09:54 DEBUG TestDAO:37 - topicname: Simple and Compound Interest
+2018-10-11 21:09:54 DEBUG TestDAO:43 - qstn: If x,y,z are three sums of money such that y is the simple interest on x, z is the simple interest on y for the same time and at same rate of interest, then we have:
+2018-10-11 21:09:54 DEBUG TestDAO:45 - answer: y**2=xz
+2018-10-11 21:09:54 DEBUG TestDAO:47 - options: {x**2=yz,y**2=xz,z**2=xy,xyz=1}
+2018-10-11 21:09:54 DEBUG TestDAO:43 - qstn: A person deposited Rs.400 for 2 yrs, Rs.550 for 4 yrs and Rs.1200 for 6 yrs. He recieved the total simple interest of Rs. 1020. The rate of interest per annum is:
+2018-10-11 21:09:54 DEBUG TestDAO:45 - answer: 10%
+2018-10-11 21:09:54 DEBUG TestDAO:47 - options: {5%,10%,15%,20%}
+2018-10-11 21:09:54 DEBUG TestDAO:43 - qstn: In how much time would the simple interest on a certain sum be 0.125 times the principal at 10%per annum?
+2018-10-11 21:09:54 DEBUG TestDAO:45 - answer: 1.25 yrs
+2018-10-11 21:09:54 DEBUG TestDAO:47 - options: {"1.25 yrs","1.75 yrs","2.25 yrs","2.75 yrs"}
+2018-10-11 21:09:54 DEBUG TestDAO:43 - qstn: A sum of Rs.1550 was lent partly at 5% and partly at 8% p.a. simple interest. The total interest received after 3 yrs was Rs.300. The ratio of money lent at 5% to that lent at 8% is:
+2018-10-11 21:09:54 DEBUG TestDAO:45 - answer: 16:15
+2018-10-11 21:09:54 DEBUG TestDAO:47 - options: {5:8,8:5,16:15,31:6}
+2018-10-11 21:09:54 DEBUG TestDAO:43 - qstn: Find the sum of money which will amount to Rs.26010 in 6 months at the rate of 8% per annum when the interest is compounded quarterly.
+2018-10-11 21:09:54 DEBUG TestDAO:45 - answer: Rs.25000
+2018-10-11 21:09:54 DEBUG TestDAO:47 - options: {Rs.24500,Rs.25000,Rs.25500,Rs.24550}
+2018-10-12 10:54:32 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-12 10:54:32 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-12 10:54:32 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-12 10:54:33 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-12 10:54:33 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-12 10:54:33 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-12 10:54:33 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-12 10:54:33 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-12 10:54:33 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-12 10:54:33 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-12 10:54:33 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-12 10:54:33 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-12 10:54:33 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-12 10:54:33 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-12 10:54:33 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-12 10:54:33 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-12 10:54:33 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-12 10:54:33 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@4df16c19
+2018-10-12 10:54:33 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-12 10:54:33 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@4df16c19
+2018-10-12 10:54:33 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-12 10:54:33 DEBUG LoginServlet:43 - Session ID: 24767721AA72067C4A963E4D3CBB16C7
+2018-10-12 10:54:33 DEBUG LoginServlet:44 - Session Created at: 1539321853050
+2018-10-12 10:54:33 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-12 10:54:54 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-12 10:54:54 DEBUG TestDAO:37 - topicname: Blood Relations
+2018-10-12 10:54:54 DEBUG TestDAO:43 - qstn: Pointing to a lady in the photograph, Shalu said "Her son's father is the son in law of my mother". How is Shalu related to the lady in the photograph?
+2018-10-12 10:54:54 DEBUG TestDAO:45 - answer: Sister
+2018-10-12 10:54:54 DEBUG TestDAO:47 - options: {Aunt,Sister,Mother,Cousin}
+2018-10-12 10:54:54 DEBUG TestDAO:43 - qstn: A is the father of C. But C is not his son. E is the daughter of C. F is the spouse of A. B is the brother of C. D is the son of B. G is the spouse of B. H is the father of G.
+Who is the grandmother of D?
+2018-10-12 10:54:54 DEBUG TestDAO:45 - answer: F
+2018-10-12 10:54:54 DEBUG TestDAO:47 - options: {F,C,H,"Data Inadequate"}
+2018-10-12 10:54:54 DEBUG TestDAO:43 - qstn: A is the uncle of B, who is the daughter of C. C is daughter in law of P. How is A related to P?
+2018-10-12 10:54:54 DEBUG TestDAO:45 - answer: Son
+2018-10-12 10:54:54 DEBUG TestDAO:47 - options: {Brother,Son,"Son in law","Data inadequate"}
+2018-10-12 10:54:54 DEBUG TestDAO:43 - qstn: A,B,C,D,E and F are six membersof a family.
+One couple has parents and their children in the family.
+A is the son of C and E is the daughter of A.
+D is the daughter of F who is the mother of E.
+How many female members are there in the family?
+2018-10-12 10:54:54 DEBUG TestDAO:45 - answer: 4
+2018-10-12 10:54:54 DEBUG TestDAO:47 - options: {3,4,5,2}
+2018-10-12 10:54:54 DEBUG TestDAO:43 - qstn: P*Q means P is father of Q
+P-Q means P is the sister of Q
+P+Q means P is the mother of Q
+P/Q means P is brother of Q.
+Which of the following represent that J is son of F?
+2018-10-12 10:54:54 DEBUG TestDAO:45 - answer: None of these
+2018-10-12 10:54:54 DEBUG TestDAO:47 - options: {J/R-T*F,J+R-T*F,J/M-N*F,"None of these"}
+2018-10-12 10:57:36 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-12 10:57:36 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-12 10:57:36 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-12 10:57:36 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-12 10:57:36 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-12 10:57:36 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-12 10:57:36 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-12 10:57:36 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-12 10:57:36 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-12 10:57:36 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-12 10:57:36 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-12 10:57:36 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-12 10:57:36 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-12 10:57:36 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-12 10:57:36 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-12 10:57:36 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-12 10:57:36 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-12 10:57:36 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@148378ed
+2018-10-12 10:57:36 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-12 10:57:36 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@148378ed
+2018-10-12 10:57:36 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-12 10:57:36 DEBUG LoginServlet:43 - Session ID: 68611C8B4A9F5D48E1D488DB39F4E4E6
+2018-10-12 10:57:36 DEBUG LoginServlet:44 - Session Created at: 1539322046749
+2018-10-12 10:57:36 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-12 10:57:44 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-12 10:57:44 DEBUG TestDAO:37 - topicname: Ratio and Proportions
+2018-10-12 10:57:44 DEBUG TestDAO:43 - qstn: If a:b=2/9 : 1/3, b:c=2/7 : 5/14, d:c=7/10 : 3/5, then find a:b:c:d.
+2018-10-12 10:57:44 DEBUG TestDAO:45 - answer: 16:24:30:35
+2018-10-12 10:57:44 DEBUG TestDAO:47 - options: {8:12:30:17,5:6:7:10,16:24:30:35,9:12:15:25}
+2018-10-12 10:57:44 DEBUG TestDAO:43 - qstn: What is the fourth proportional to 4,9,12?
+2018-10-12 10:57:44 DEBUG TestDAO:45 - answer: 27
+2018-10-12 10:57:44 DEBUG TestDAO:47 - options: {48,27,4,36}
+2018-10-12 10:57:44 DEBUG TestDAO:43 - qstn: If A exceeds B by 40%, B is less than C by 20%, then find A:C.
+2018-10-12 10:57:44 DEBUG TestDAO:45 - answer: 28:25
+2018-10-12 10:57:44 DEBUG TestDAO:47 - options: {2:1,6:5,16:25,28:25}
+2018-10-12 10:57:44 DEBUG TestDAO:43 - qstn: The total emoluments of A, B and C are equal. However A gets 65% of his basic salary as allowances and B gets 80%of his basic salary as allowances. What is the ratio of the basic salaries of A and B?
+2018-10-12 10:57:44 DEBUG TestDAO:45 - answer: 12:11
+2018-10-12 10:57:44 DEBUG TestDAO:47 - options: {5:7,7:9,12:11,16:13}
+2018-10-12 10:57:44 DEBUG TestDAO:43 - qstn: The ratio of investments of two partners A and B is 11:12. The ratio of their profits is 2:3. If A invested the money for 8 months, then for how much time B invested the money?
+2018-10-12 10:57:44 DEBUG TestDAO:45 - answer: 11 months
+2018-10-12 10:57:44 DEBUG TestDAO:47 - options: {"1 year","13 months","11 months","10 months"}
+2018-10-12 10:58:24 DEBUG LoginServlet:29 - Inside LoginServlet doPost() method.
+2018-10-12 10:58:24 DEBUG LoginServlet:33 - LoginServlet doPost() received credentials.
+2018-10-12 10:58:24 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-10-12 10:58:24 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-10-12 10:58:24 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-10-12 10:58:24 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-10-12 10:58:24 DEBUG UserDAO:84 - UserDTO Object setEmailId().
+2018-10-12 10:58:24 DEBUG UserDAO:86 - UserDTO Object setPassword().
+2018-10-12 10:58:24 DEBUG UserDAO:88 - UserDTO Object setFirstName().
+2018-10-12 10:58:24 DEBUG UserDAO:90 - UserDTO Object setLastName().
+2018-10-12 10:58:24 DEBUG UserDAO:92 - UserDTO Object setRoleName().
+2018-10-12 10:58:24 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-12 10:58:24 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-12 10:58:24 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-12 10:58:24 DEBUG UserDAO:98 - UserDTO Object setRightName().
+2018-10-12 10:58:24 DEBUG UserDAO:100 - UserDTO Object setScreenName().
+2018-10-12 10:58:24 DEBUG UserDAO:102 - UserDTO Object Right added to AList<>.
+2018-10-12 10:58:24 DEBUG UserDAO:104 - Returning db-loaded UserDTO object: com.aptidude.app.dto.UserDTO@d5ada63
+2018-10-12 10:58:24 DEBUG UserDAO:117 - Resources closed for LOGIN in UserDAO.
+2018-10-12 10:58:24 DEBUG LoginServlet:39 - LoginServlet received db-loaded UserDTO Object: com.aptidude.app.dto.UserDTO@d5ada63
+2018-10-12 10:58:24 DEBUG LoginServlet:42 - HttpSession created.
+2018-10-12 10:58:24 DEBUG LoginServlet:43 - Session ID: D79154C04EE8120120406716ED35D187
+2018-10-12 10:58:24 DEBUG LoginServlet:44 - Session Created at: 1539322070386
+2018-10-12 10:58:24 DEBUG LoginServlet:48 - Redirecting to Dashboard.jsp...
+2018-10-12 10:58:31 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-12 10:58:31 DEBUG TestDAO:37 - topicname: Puzzle
+2018-10-12 10:58:31 DEBUG TestDAO:43 - qstn: If rain is water, water is road, road is cloud, cloud is sky, sky is sea, and sea is path, where do aeroplanes fly?
+2018-10-12 10:58:31 DEBUG TestDAO:45 - answer: Sea
+2018-10-12 10:58:31 DEBUG TestDAO:47 - options: {Road,Sea,Cloud,Water}
+2018-10-12 10:58:31 DEBUG TestDAO:43 - qstn: In a certain code language, "po ki top" means Usha is playing cards, "kop ja ki ma" means Asha is playing tennis, "ki top sop ho" means they are playing football, and "po sur kop" means cards and tennis. Which word in that language means Asha?
+2018-10-12 10:58:31 DEBUG TestDAO:45 - answer: ja
+2018-10-12 10:58:31 DEBUG TestDAO:47 - options: {ja,ma,kop,top}
+2018-10-12 10:58:31 DEBUG TestDAO:43 - qstn: Choose which of these is odd one out:
+2018-10-12 10:58:31 DEBUG TestDAO:45 - answer: 125
+2018-10-12 10:58:31 DEBUG TestDAO:47 - options: {53,85,125,147}
+2018-10-12 10:58:31 DEBUG TestDAO:43 - qstn: Count each 1 in the following sequenceof numbers that is immediately followed by 2, if 2 is not immediately followed by 3. 
+1 2 1 3 4 5 1 2 3 5 2 1 2 6 1 4 5 1 1 2 4 1 2 3 2 1 7 5 2 1 2 5
+How many 1s are there?
+2018-10-12 10:58:31 DEBUG TestDAO:45 - answer: 4
+2018-10-12 10:58:31 DEBUG TestDAO:47 - options: {7,10,4,5}
+2018-10-12 10:58:31 DEBUG TestDAO:43 - qstn: In a certain code language, 253 means spark and fire, 456 means spark is cause, and 258 means fire is effect. Which of the followqing numerals stand for cause?
+2018-10-12 10:58:31 DEBUG TestDAO:45 - answer: 6
+2018-10-12 10:58:31 DEBUG TestDAO:47 - options: {3,4,5,6}
+2018-10-12 10:59:16 DEBUG TestDAO:35 - TestDTO Object created in loop.
+2018-10-12 10:59:16 DEBUG TestDAO:37 - topicname: Ratio and Proportions
+2018-10-12 10:59:16 DEBUG TestDAO:43 - qstn: If a:b=2/9 : 1/3, b:c=2/7 : 5/14, d:c=7/10 : 3/5, then find a:b:c:d.
+2018-10-12 10:59:16 DEBUG TestDAO:45 - answer: 16:24:30:35
+2018-10-12 10:59:16 DEBUG TestDAO:47 - options: {8:12:30:17,5:6:7:10,16:24:30:35,9:12:15:25}
+2018-10-12 10:59:16 DEBUG TestDAO:43 - qstn: What is the fourth proportional to 4,9,12?
+2018-10-12 10:59:16 DEBUG TestDAO:45 - answer: 27
+2018-10-12 10:59:16 DEBUG TestDAO:47 - options: {48,27,4,36}
+2018-10-12 10:59:16 DEBUG TestDAO:43 - qstn: If A exceeds B by 40%, B is less than C by 20%, then find A:C.
+2018-10-12 10:59:16 DEBUG TestDAO:45 - answer: 28:25
+2018-10-12 10:59:16 DEBUG TestDAO:47 - options: {2:1,6:5,16:25,28:25}
+2018-10-12 10:59:16 DEBUG TestDAO:43 - qstn: The total emoluments of A, B and C are equal. However A gets 65% of his basic salary as allowances and B gets 80%of his basic salary as allowances. What is the ratio of the basic salaries of A and B?
+2018-10-12 10:59:16 DEBUG TestDAO:45 - answer: 12:11
+2018-10-12 10:59:16 DEBUG TestDAO:47 - options: {5:7,7:9,12:11,16:13}
+2018-10-12 10:59:16 DEBUG TestDAO:43 - qstn: The ratio of investments of two partners A and B is 11:12. The ratio of their profits is 2:3. If A invested the money for 8 months, then for how much time B invested the money?
+2018-10-12 10:59:16 DEBUG TestDAO:45 - answer: 11 months
+2018-10-12 10:59:16 DEBUG TestDAO:47 - options: {"1 year","13 months","11 months","10 months"}
+2018-10-12 11:01:30 DEBUG RegisterServlet:31 - Inside RegisterServlet doPost() method.
+2018-10-12 11:01:30 DEBUG RegisterServlet:37 - RegisterServlet doPost() received credentials.
+2018-10-12 11:01:30 DEBUG UserDAO:25 - Inside UserDAO doRegister() method.
+2018-10-12 11:01:30 DEBUG UserDAO:32 - Connection created for REGISTER inside UserDAO..
+2018-10-12 11:01:30 DEBUG CommonDAO:74 - roleid from ResultSet: 2
+2018-10-12 11:01:30 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-10-12 11:01:30 DEBUG UserDAO:57 - Resources closed for REGISTER in UserDAO.
+2018-10-12 11:01:45 DEBUG RegisterServlet:31 - Inside RegisterServlet doPost() method.
+2018-10-12 11:01:45 DEBUG RegisterServlet:37 - RegisterServlet doPost() received credentials.
+2018-10-12 11:01:45 DEBUG UserDAO:25 - Inside UserDAO doRegister() method.
+2018-10-12 11:01:46 DEBUG UserDAO:32 - Connection created for REGISTER inside UserDAO..
+2018-10-12 11:01:46 DEBUG CommonDAO:74 - roleid from ResultSet: 2
+2018-10-12 11:01:46 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-10-12 11:01:46 DEBUG UserDAO:57 - Resources closed for REGISTER in UserDAO.
